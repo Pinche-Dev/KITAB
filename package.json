@@ -1,0 +1,24 @@
+{
+  "name": "kitab",
+  "version": "0.0.1",
+  "description": "modern epub reader for windows macos and linux",
+  "main": "app.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Pinche-Dev/KITAB.git"
+  },
+  "keywords": [
+    "epub",
+    "ebook",
+    "reader"
+  ],
+  "author": "pinche.dev",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Pinche-Dev/KITAB/issues"
+  },
+  "homepage": "https://github.com/Pinche-Dev/KITAB#readme"
+}
