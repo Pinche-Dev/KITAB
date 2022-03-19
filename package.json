@@ -7,9 +7,13 @@
   "author": "pinche.dev <pinche.dev@gmail.com>",
   "license": "'",
   "scripts": {
-    "start": "cd ./src/electron/ && electron ."
+    "preStart": "cd ./epubjs-reader && npm start",
+    "start": "cd ./src/electron/ && electron .",
+"dev":"concurrently \"npm run preStart\" \"npm run start\""
+  
   },
   "dependencies": {
+    "concurrently": "^7.0.0",
     "electron": "^15.3.1",
     "epubjs": "^0.3.90",
     "typescript": "^4.4.4",
